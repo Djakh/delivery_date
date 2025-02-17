@@ -8,6 +8,6 @@ void main() {
   int autoIncrementDays = 2;
 
   DateTime deliveryDate = calculator.calculateDeliveryDate(orderDate, autoIncrementDays);
-  print("Order Date: \$orderDate");
-  print("Delivery Date: \$deliveryDate"); // Expected delivery date: Tuesday (Feb 20)
+  print("Order Date: $orderDate");
+  print("Delivery Date: $deliveryDate"); // Expected delivery date: Tuesday (Feb 20)
 }
